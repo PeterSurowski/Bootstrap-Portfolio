@@ -1,0 +1,146 @@
+body {
+	background: url(../images/ep_naturalwhite.png);
+}
+
+a.navbar-brand {
+	color: white !important;
+}
+
+.navbar-brand {
+	background: #4aaaa5;
+}
+
+.navbar-header {
+	padding-left: 10%;
+}
+
+#profile-pic {
+	height: 30%;
+	width: 30%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
+#left-home {
+	background: white;
+	padding-bottom: 3%;
+}
+
+#right-home {
+	background: white;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.right .fa {
+	color: black;
+	background: whie;
+	font-size: 40px;
+	margin: 3px;
+	padding: 2px;
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.right .fa:hover {
+	background: #4aaaa5;
+}
+
+#right-portfolio {
+	background: white;
+	text-align: center;
+	padding-bottom: 3%;
+	z-index: 3;
+	height: 200px;
+	margin-top: 40%;
+}	
+
+.right .fa {
+	color: black;
+	background: white;
+	font-size: 40px;
+	margin: 3px;
+	padding: 2px;
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.right .fa:hover {
+	background: #4aaaa5;
+}
+
+.footer {
+	position: ;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 20px;
+	border-top: solid #4aaaa5 3px;
+}
+
+#experiment {
+	min-height: 50em;
+}
+
+#image-1, #image-2, #image-3, #image-4, #image-5 {
+	height: 100px;
+	width: 125px;
+	float: left;
+	margin: 5px 5px 10px 5px;
+}
+
+#image-1 {
+	background-image: url("http://lorempixel.com/output/abstract-q-c-200-200-1.jpg");
+}
+
+#image-2 {
+	background-image: url("http://lorempixel.com/output/abstract-q-c-200-200-2.jpg");
+}
+
+#image-3 {
+	background-image: url("http://lorempixel.com/output/abstract-q-c-200-200-3.jpg");
+}
+
+#image-4 {
+	background-image: url("http://lorempixel.com/output/abstract-q-c-200-200-4.jpg");
+}
+
+#image-5 {
+	background-image: url("http://lorempixel.com/output/abstract-q-c-200-200-5.jpg");
+}
+
+#image-1 h3, #image-2 h3, #image-3 h3, #image-4 h3, #image-5 h3 {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	background: #4aaaa5;
+	position: relative;
+	top: 65px;
+	padding: 5px;
+}
+
+#left-portfolio {
+	z-index: 1;
+}
+
+#image-1 #image-2 #image-3 #image-4 #image-5 {
+	z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+		#small-navbar {
+			display: none;
+		}
+
+		#bs-example-navbar-collapse-1 {
+			float: none;
+			z-index: 5;
+		}
+}	
