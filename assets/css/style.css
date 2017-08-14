@@ -21,12 +21,12 @@ a.navbar-brand {
 	margin: 0 3% 0 3%;
 }
 
-#left-home {
+#left-home, #left-portfolio, #left-contact {
 	background: white;
 	padding-bottom: 3%;
 }
 
-#right-home {
+#right-home, #right-portfolio {
 	background: white;
 	text-align: center;
 	padding-bottom: 3%;
@@ -54,7 +54,6 @@ a.navbar-brand {
 	padding-bottom: 3%;
 	z-index: 3;
 	height: 200px;
-	margin-top: 40%;
 }	
 
 .right .fa {
@@ -134,13 +133,40 @@ a.navbar-brand {
 	z-index: 2;
 }
 
-@media screen and (min-width: 768px) {
-		#small-navbar {
-			display: none;
-		}
+#image-5 h3 {
+	font-size: 95%;
+	padding-bottom: 5%;
+}
 
-		#bs-example-navbar-collapse-1 {
-			float: none;
-			z-index: 5;
-		}
-}	
+@media screen and (min-width: 768px) {
+	#small-navbar {
+		display: none;
+	}
+
+	#bs-example-navbar-collapse-1 {
+		float: none;
+		z-index: 5;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#left-home, #left-portfolio, #left-contact, #right-home, #right-portfolio, #right-contact {
+		padding-top: 1%;
+	}
+
+	#left-portfolio {
+		min-height: 25em;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	#left-portfolio {
+		min-height: 33em;
+	}
+}
+
+@media screen and (max-width: 346px) {
+	#left-portfolio {
+		min-height: 50em;
+	}
+}
